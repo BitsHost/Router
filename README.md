@@ -1,5 +1,6 @@
 # Router
  Simple PHP Router
+ PHP Routing without a Framework
 
 
 Creating a PHP router system involves defining routes that map to specific pages or actions in your web application. Below is a simple example of a PHP router system that handles routes, associates them with page names, and executes the corresponding code.
