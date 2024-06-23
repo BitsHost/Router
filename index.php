@@ -7,12 +7,12 @@ require_once 'router.php';
 $router = new Router();
 
 // Define routes and associate them with page names
-$router->addRoute('/', 'home', function () {
+$router->addRoute('/Router/index.php', 'home', function () {
     // Code for the Home page
     include 'pages/home.php';
 });
 
-$router->addRoute('/about', 'about', function () {
+$router->addRoute('/Router/index.php/about', 'about', function () {
     // Code for the About page
     include 'pages/about.php';
 });
